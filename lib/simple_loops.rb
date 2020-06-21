@@ -29,5 +29,6 @@ def return_string_array(array)
     arrStr[counter] = array[counter].to_s
     counter += 1
   end
+  return arrStr
 end
   
